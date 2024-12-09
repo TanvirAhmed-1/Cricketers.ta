@@ -1,0 +1,125 @@
+{
+    "players": [
+      {
+        "name": "Shakib Al Hasan",
+        "img": "https://i.ibb.co.com/qxH4F48/prothomalo-english-2024-06-d86ef8c2-3890-48a1-adbf-25c384f99637-Shakib.webp",
+        "id": "BD001",
+        "rating": 5,
+        "country": "Bangladesh",
+        "batting_style": "left-hand",
+        "role": "All-rounder",
+        "price":"15000"
+      },
+      {
+        "name": "Tamim Iqbal",
+        "img": "https://i.ibb.co.com/gVhJP2H/Tamim-Iqbal.webp",
+        "id": "BD002",
+        "rating": 4,
+        "country": "Bangladesh",
+        "batting_style": "left-hand",
+        "role": "Batsman",
+        "price":"17000"
+      },
+      {
+        "name": "Mushfiqur Rahim",
+        "img": "https://i.ibb.co.com/rH10NHP/images.jpg",
+        "id": "BD003",
+        "rating": 5,
+        "country": "Bangladesh",
+        "batting_style": "right-hand",
+        "role": "Wicket-keeper",
+        "price":"1900"
+      },
+      {
+        "name": "Mahmudullah Riyad",
+        "img": "https://i.ibb.co.com/Xjk19q0/ezgif-2-9828453b56.jpg",
+        "id": "BD004",
+        "rating": 4,
+        "country": "Bangladesh",
+        "batting_style": "right-hand",
+        "role": "All-rounder",
+        "price":"12000"
+      },
+      {
+        "name": "Mustafizur Rahman",
+        "img": "https://i.ibb.co.com/k9TX08R/383539.webp",
+        "id": "BD005",
+        "rating": 5,
+        "country": "Bangladesh",
+        "batting_style": "left-hand",
+        "role": "Bowler",
+        "price":"13000"
+      },
+      {
+        "name": "Liton Das",
+        "img": "https://i.ibb.co.com/yQJ6j6z/images-2.jpg",
+        "id": "BD006",
+        "rating": 4,
+        "country": "Bangladesh",
+        "batting_style": "right-hand",
+        "role": "Wicket-keeper",
+        "price":"12000"
+      },
+      {
+        "name": "Taskin Ahmed",
+        "img": "https://i.ibb.co.com/3khb2kq/5563.webp",
+        "id": "BD007",
+        "rating": 5,
+        "country": "Bangladesh",
+        "batting_style": "right-hand",
+        "role": "Bowler",
+        "price":"13000"
+      },
+      {
+        "name": "Soumya Sarkar",
+        "img": "https://i.ibb.co.com/grkWThK/images-3.jpg",
+        "id": "BD008",
+        "rating": 3,
+        "country": "Bangladesh",
+        "batting_style": "left-hand",
+        "role": "All-rounder",
+        "price":"11000"
+      },
+      {
+        "name": "Mehidy Hasan Miraz",
+        "img": "https://i.ibb.co.com/FqqyFR7/333113779-116062224747480-5982400194808866817-n-1.jpg",
+        "id": "BD009",
+        "rating": 4,
+        "country": "Bangladesh",
+        "batting_style": "right-hand",
+        "role": "All-rounder",
+        "price":"13000"
+      },
+      {
+        "name": "Afif Hossain",
+        "img": "https://i.ibb.co.com/8KyS9Hc/Afif-Hossain-3.webp",
+        "id": "BD010",
+        "rating": 4,
+        "country": "Bangladesh",
+        "batting_style": "left-hand",
+        "role": "Batsman",
+        "price":"1000000"
+      },
+      {
+        "name": "Mohammad Saifuddin",
+        "img": "https://i.ibb.co.com/bJnbShW/2639d9e6-fe25-4714-bf46-ed6b0ab9f118.pnghttps://i.ibb.co.com/bJnbShW/2639d9e6-fe25-4714-bf46-ed6b0ab9f118.png",
+        "id": "BD011",
+        "rating": 4,
+        "country": "Bangladesh",
+        "batting_style": "right-hand",
+        "role": "All-rounder",
+        "price":"900000"
+      },
+      {
+        "name": "Nasum Ahmed",
+        "img": "https://i.ibb.co.com/8NLNRJ5/5561.webp",
+        "id": "BD012",
+        "rating": 3,
+        "country": "Bangladesh",
+        "batting_style": "left-hand",
+        "role": "Bowler",
+        "price":"1000000"
+      }
+    ]
+  }
+  
