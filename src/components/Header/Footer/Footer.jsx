@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
 
          {/* footer */}
-         <div className='bg-black text-white  flex flex-col justify-center items-center pb-20 w-full mx-auto'>
+         <div className='bg-black text-white  flex flex-col justify-center items-center pb-4 w-full mx-auto'>
          
          <div className='lg:mt-56 md:mt-60 mt-64'>
          <div className='flex justify-center items-center mb-10'>
@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
          </div>
          <hr className=' border-2 border-white w-full mt-8'></hr>
-          <div className='flex justify-center items-baseline pt-12'>
+          <div className='flex justify-center items-baseline pt-6 pb-3'>
             <p className='text-xl text-white '>@2024 Your Company All Rights Reserved.</p>
           </div>
         </div>
