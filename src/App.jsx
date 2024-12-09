@@ -10,7 +10,7 @@ function App() {
   const [players, setPlayers] = useState([]);
 
   useEffect(() => {
-    fetch("../public/Details.json")
+    fetch("/Details.json")
       .then((res) => res.json())
       .then((data) => setPlayers(data.players));
   }, []);
@@ -31,6 +31,9 @@ function App() {
     if (!players1.some((p) => p.id === player.id)) {
       const newplayer = [...players1, player];
       setplayer1(newplayer);
+      if (players1.slice(0, 7).length < 6) {
+        toast.success("Player is successfully added");
+      }
       // toast.success("Player is successfully added")
     } else {
       toast.error(`Player ${player.name} has already been added.`);
@@ -53,10 +56,6 @@ function App() {
   useEffect(() => {
     if (players1.slice(0, 7).length > 6) {
       toast.error("You already added 6 player");
-    }
-    else{
-      toast.success("Player is successfully added")
-      return
     }
     
   }, [players1, players1.length]);
