@@ -4,7 +4,7 @@ import Footer from "./components/Header/Footer/Footer";
 import Header from "./components/Header/Header";
 import Player from "./components/player/Player";
 import Playerselect from "./components/Select/Playerselect";
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 
 function App() {
   const [players, setPlayers] = useState([]);
@@ -41,11 +41,12 @@ function App() {
   };
 
   // duplicate player in array remove
+  
   const removeplaye = (id) => {
     const removeplayer1 = players1.filter((players1) => players1.id !== id);
     setplayer1(removeplayer1);
-    if(removeplayer1){
-      toast.success("Successfully Deleted Player")
+    if (removeplayer1) {
+      toast.success("Successfully Deleted Player");
     }
   };
 
@@ -57,7 +58,6 @@ function App() {
     if (players1.slice(0, 7).length > 6) {
       toast.error("You already added 6 player");
     }
-    
   }, [players1, players1.length]);
 
   return (

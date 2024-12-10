@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 const Select = ({ players, removeplaye }) => {
   console.log(players);
   const { id, name, img, batting_style } = players;
-  // coinBalance(price);
 
   return (
     <div>
@@ -26,7 +25,7 @@ const Select = ({ players, removeplaye }) => {
             <img
               className=" w-2/6"
               src="https://img.icons8.com/?size=100&id=629QE0a9taSF&format=png&color=000000"
-              alt=""
+              alt="logo"
             />
           </button>
         </div>
